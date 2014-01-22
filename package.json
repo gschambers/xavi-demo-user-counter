@@ -1,0 +1,52 @@
+{
+  "name": "xavi-demo-user-counter",
+  "version": "0.0.0",
+  "description": "User counter demo for Xavi-FR integration",
+  "main": "main.js",
+  "scripts": {
+    "test": "grunt test --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lipsmack/xavi-demo-user-counter.git"
+  },
+  "keywords": [
+    "xavi",
+    "websocket"
+  ],
+  "author": "Gary Chambers <gary@lipsmack.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lipsmack/xavi-demo-user-counter/issues"
+  },
+  "homepage": "https://github.com/lipsmack/xavi-demo-user-counter",
+  "dependencies": {
+    "xavi-middleware-auth": "0.0.0-5",
+    "xavi": "~0.3.5-16",
+    "q": "~1.0.0",
+    "lodash": "~2.4.1",
+    "redis": "~0.10.0",
+    "xavi-middleware-cookie": "0.0.0-1"
+  },
+  "devDependencies": {
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "mversion": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-jsbeautifier": "~0.2.6",
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "grunt-contrib-jasmine": "~0.5.2",
+    "grunt-react": "~0.6.0",
+    "grunt-contrib-less": "~0.9.0",
+    "grunt-contrib-connect": "~0.6.0",
+    "webpack": "~1.0.0-beta6",
+    "webpack-dev-server": "~1.2.0",
+    "grunt-webpack": "~1.0.3",
+    "connect": "~2.12.0",
+    "react-tools": "~0.8.0",
+    "ws": "~0.4.31"
+  }
+}

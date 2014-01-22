@@ -1,0 +1,32 @@
+{
+  "name": "xavi-demo-user-counter",
+  "version": "0.0.0",
+  "authors": [
+    "Gary Chambers <gary@lipsmack.co.uk>"
+  ],
+  "description": "Online user counter demo for Xavi",
+  "main": "main.js",
+  "keywords": [
+    "xavi",
+    "websocket"
+  ],
+  "license": "MIT",
+  "homepage": "http://xavi.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "xavi": "~0.0.3",
+    "react": "~0.8.0",
+    "jquery": "~2.0.3",
+    "backbone": "~1.1.0",
+    "backbone.marionette": "~1.5.1",
+    "moment": "~2.5.0",
+    "lodash": "~2.4.1"
+  }
+}
