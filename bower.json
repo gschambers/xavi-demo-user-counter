@@ -21,12 +21,14 @@
     "tests"
   ],
   "dependencies": {
-    "xavi": "~0.0.3",
+    "jquery": "~2.1.0",
+    "lodash": "~2.4.1",
+    "bootstrap": "~3.0.3",
+    "font-awesome": "~4.0.3",
+    "xavi": "~0.3.0",
+    "eventemitter2": "~0.4.13",
+    "backbone.marionette": "~1.6.1",
     "react": "~0.8.0",
-    "jquery": "~2.0.3",
-    "backbone": "~1.1.0",
-    "backbone.marionette": "~1.5.1",
-    "moment": "~2.5.0",
-    "lodash": "~2.4.1"
+    "moment": "~2.5.1"
   }
 }

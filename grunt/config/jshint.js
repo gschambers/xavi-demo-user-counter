@@ -8,7 +8,8 @@ module.exports = {
 			devel: true,
 			globals: {
 				require: false,
-				module: false
+				module: false,
+				FR: false
 			}
 		},
 
