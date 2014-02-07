@@ -1,0 +1,31 @@
+body {
+	font: normal 62.5%/1.5em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: transparent url(/img/src/squairy_light.png) repeat scroll 0 0;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: inherit;
+}
+
+.page-module {
+	margin-bottom: 3rem;
+	padding: 1rem;
+	font-size: 1.3rem;
+	background: white;
+	.box-shadow(~"0 0 4px rgba(0, 0, 0, 0.1)");
+
+	.page-module-header {
+		margin: 0;
+		padding: 0 0 1rem;
+		border-bottom: 1px lighten(@gray-light, 25%) solid;
+		font-weight: 300;
+	}
+}
+
+.btn {
+	&:focus,
+	&:active {
+		outline: none;
+	}
+}

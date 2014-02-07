@@ -1,0 +1,92 @@
+@-webkit-keyframes pulse {
+	0% { .scale(1); }
+	14% { .scale(1.3); }
+	28% { .scale(1); }
+	42% { .scale(1.3); }
+	70% { .scale(1); }
+}
+
+#userList {
+	.user-form {
+		margin-top: 1rem;
+
+		button {
+			font-weight: 300;
+		}
+	}
+
+	.user-list {
+		margin: 1rem 0 0;
+		padding: 0;
+		list-style: none;
+
+		.label {
+			margin-left: 0.5rem;
+			padding: 0.4em 0.8em;
+
+			&:first-child {
+				margin: 0;
+			}
+		}
+	}
+
+		.user-list-empty {
+			font-style: italic;
+		}
+
+			.pulse {
+				color: darken(hotpink, 30%);
+
+				&.pulse-ping {
+					.animation(pulse .75s);
+				}
+			}
+
+			.status-connecting {
+				background-color: @brand-info;
+			}
+
+			.status-open {
+				background-color: @brand-success;
+			}
+
+			.status-decaying {
+				background-color: @brand-warning;
+			}
+
+			.auth-yes {
+				background-color: @brand-success;
+			}
+
+			.auth-no {
+				background-color: @brand-danger;
+			}
+
+			.btn-reconnect {
+				background: transparent;
+				border-color: @brand-success;
+				color: @brand-success;
+
+				&[data-action=enable] {
+					border-color: @brand-danger;
+					color: @brand-danger;
+				}
+			}
+
+			.user-controls {
+				.btn {
+					margin-left: 0.5rem;
+					background: transparent;
+				}
+
+				.btn-auth {
+					border-color: @brand-primary;
+					color: @brand-primary;
+				}
+
+				.btn-status {
+					border-color: @brand-danger;
+					color: @brand-danger;
+				}
+			}
+}

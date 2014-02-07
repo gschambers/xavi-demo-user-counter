@@ -1,0 +1,47 @@
+#notification {
+	.notification-list-empty {
+		margin: 1rem 0 0;
+		font-size: 1.3rem;
+		font-style: italic;
+	}
+
+	.notification-list {
+		margin: 1rem 0 0;
+		padding: 0;
+		list-style: none;
+
+		.notification {
+			margin: 1rem 0 0;
+			padding: 1rem;
+
+			&:first-child {
+				margin: 0;
+			}
+		}
+
+		.notification-open {
+			background: lighten(@brand-success, 40%);
+			border-bottom: 1px lighten(@brand-success, 15%) solid;
+		}
+
+		.notification-decaying {
+			background: lighten(@brand-warning, 30%);
+			border-bottom: 1px @brand-warning solid;
+		}
+
+		.notification-authError,
+		.notification-close {
+			background: lighten(@brand-danger, 35%);
+			border-bottom: 1px lighten(@brand-danger, 10%) solid;
+		}
+
+			.type,
+			.client-id {
+				display: inline-block;
+			}
+
+			.type {
+				text-transform: uppercase;
+			}
+	}
+}
